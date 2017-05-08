@@ -31,6 +31,8 @@ namespace Shadowsocks.Model
         public ProxyConfig proxy;
         public HotkeyConfig hotkey;
 
+        public int httpProxyPort;
+
         private static string CONFIG_FILE = "gui-config.json";
 
         public Server GetCurrentServer()
